@@ -9,7 +9,7 @@
 		lastItem = $("li:last-child"),
 		img = $("img");
 
-	TweenLite.from(img, 1.5, {opacity: 0, x: -50});	
+	TweenLite.from(img, 1, {opacity: 0, x: -50});	
 
 })(jQuery);
 
